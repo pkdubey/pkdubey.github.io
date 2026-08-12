@@ -333,7 +333,7 @@ export function Contact() {
                 rel="noopener noreferrer"
                 className="text-primary underline-offset-2 hover:underline"
               >
-                Pavan Kumar Dubey
+                pkdubey
               </a>{' '}
               &mdash; fork and make it yours.
             </p>
