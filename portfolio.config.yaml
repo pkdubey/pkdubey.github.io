@@ -53,7 +53,7 @@ sections:
 social:
   github:   "https://github.com/pkdubey"
   linkedin: "https://linkedin.com/in/pavan-kumar-dubey"
-  twitter:  ""
+  twitter:  "https://x.com/dubeypavankr"
   website:  "https://softbenderai.cloud"
 
 # ── About ──────────────────────────────────────────────────────────────
@@ -184,7 +184,7 @@ projects:
       Professional MLM platform with 11 wallet types, 9 income streams, 
       genealogy tree, and rank system built with Django 4.2.
     tags: ["Django", "Python", "PostgreSQL", "Celery", "Bootstrap"]
-    liveUrl: "https://softbenderai.cloud"
+    liveUrl: ""
     repoUrl: "https://github.com/pkdubey/mlm"
     featured: true
 
@@ -202,7 +202,7 @@ projects:
       Hyperlocal community platform with AI-powered moderation, 
       user verification, and real-time feeds.
     tags: ["Laravel", "PHP", "Python", "MySQL", "REST APIs"]
-    liveUrl: "https://dlc.softbenderai.cloud/"
+    liveUrl: "https://www.neighbrsnook.com/"
     repoUrl: "https://github.com/pkdubey/neighbrsnook"
     featured: true
 
@@ -239,7 +239,7 @@ projects:
       inventory management, and CRM features.
     tags: ["Python", "Django", "PostgreSQL", "Bootstrap", "Chart.js"]
     liveUrl: "https://tourhms.softbenderai.cloud"
-    repoUrl: ""
+    repoUrl: "https://github.com/pkdubey/tourhms"
     featured: false
 
 # ── Education ──────────────────────────────────────────────────────────
