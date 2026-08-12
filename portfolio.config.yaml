@@ -183,7 +183,7 @@ projects:
     description: |
       Professional MLM platform with 11 wallet types, 9 income streams, 
       genealogy tree, and rank system built with Django 4.2.
-    tags: ["Django", "Python", "PostgreSQL", "Celery", "Bootstrap"]
+    tags: ["Python", "Django", "PostgreSQL", "Celery", "Bootstrap"]
     liveUrl: ""
     repoUrl: "https://github.com/pkdubey/mlm"
     featured: true
@@ -219,7 +219,7 @@ projects:
     description: |
       Affiliate tracking and commission distribution platform 
       with analytics dashboards.
-    tags: ["PHP", "Laravel", "MySQL", "JavaScript", "Bootstrap"]
+    tags: ["Python", "Django", "MySQL", "Docker", "Bootstrap"]
     liveUrl: ""
     repoUrl: "https://github.com/pkdubey/Affiliate_Management"
     featured: false
