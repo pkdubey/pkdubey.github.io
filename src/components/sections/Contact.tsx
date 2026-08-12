@@ -328,12 +328,12 @@ export function Contact() {
             <p className="text-muted-foreground font-mono text-xs tracking-wide">
               Built with{' '}
               <a
-                href="https://github.com/git-vitae/git-vitae.github.io"
+                href="https://github.com/pkdubey/pkdubey.github.io"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary underline-offset-2 hover:underline"
               >
-                GitVitae
+                Pavan Kumar Dubey
               </a>{' '}
               &mdash; fork and make it yours.
             </p>
