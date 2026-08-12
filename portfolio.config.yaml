@@ -25,9 +25,9 @@ resumeFileName: "Pavan_Kumar_Dubey_Resume.pdf"
 openToWork: true
 
 # ── Theme ───────────────────────────────────────────────────────────────
-defaultTheme: "system"
-colorPreset: "indigo"
-primaryColor: "#6366f1"
+defaultTheme: "system"      # light | dark | system
+colorPreset: "indigo"       # indigo | emerald | rose | amber | ocean | slate
+primaryColor: "#4F46E5"     # Slightly different indigo for a fresh look
 
 resumeTheme:
   twoColumn: "indigo"
@@ -42,7 +42,7 @@ sections:
   - { id: skills,         show: true  }
   - { id: languages,      show: true  }
   - { id: experience,     show: true  }
-  - { id: projects,       show: true  }  # ✅ अब projects दिखेंगे
+  - { id: projects,       show: true  }
   - { id: education,      show: true  }
   - { id: certifications, show: true  }
   - { id: publications,   show: false }
@@ -51,10 +51,10 @@ sections:
 
 # ── Social links ────────────────────────────────────────────────────────
 social:
-  github:   "https://github.com/pkdubey"   # ✅ आपका GitHub प्रोफाइल
+  github:   "https://github.com/pkdubey"
   linkedin: "https://linkedin.com/in/pavan-kumar-dubey"
   twitter:  ""
-  website:  "https://softbenderai.cloud"   # ✅ आपकी वेबसाइट
+  website:  "https://softbenderai.cloud"
 
 # ── About ──────────────────────────────────────────────────────────────
 about: |
@@ -93,7 +93,7 @@ skills:
     items: ["Laravel", "Django", "Flask", "Django REST Framework", "FastAPI"]
   
   - category: "🗄️ Databases"
-    items: ["MySQL", "PostgreSQL", "MongoDB", "SQLite"]
+    items: ["MySQL", "PostgreSQL", "MongoDB", "SQLite"]  # ✅ PostgreSQL added
   
   - category: "🎨 Frontend"
     items: ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", "Tailwind CSS"]
@@ -194,7 +194,7 @@ projects:
       **9 Income Streams**, Interactive Genealogy Tree, Rank System (Silver, Gold, Diamond, Crown), 
       OTP Security, and Modern UI with Animations. Production Ready.
     tags: ["Django", "Python", "Chart.js", "Bootstrap", "SQLite", "Celery"]
-    liveUrl: "https://softbenderai.cloud"  # ✅ आपका लाइव डेमो
+    liveUrl: "https://softbenderai.cloud"
     repoUrl: "https://github.com/pkdubey/mlm"
     featured: true
 
@@ -212,7 +212,7 @@ projects:
       🏘️ Hyperlocal platform for verified neighbourhood communities with AI-powered 
       moderation, user verification, and real-time feeds.
     tags: ["Laravel", "PHP", "Python", "Django", "MySQL", "REST APIs"]
-    liveUrl: "https://dlc.softbenderai.cloud/"  # ✅ आपका लाइव डेमो
+    liveUrl: "https://dlc.softbenderai.cloud/"
     repoUrl: "https://github.com/pkdubey/neighbrsnook"
     featured: true
 
@@ -248,7 +248,7 @@ projects:
       🏨 Tourism and Hotel Management System with booking engine, inventory management, 
       and customer relationship features.
     tags: ["Python", "Django", "PostgreSQL", "Bootstrap", "Chart.js"]
-    liveUrl: "https://tourhms.softbenderai.cloud"  # ✅ आपका लाइव डेमो
+    liveUrl: "https://tourhms.softbenderai.cloud"
     repoUrl: ""
     featured: false
 
