@@ -1,6 +1,6 @@
 # ╔══════════════════════════════════════════════════════════════════════╗
 # ║              GitVitae — Portfolio Configuration                      ║
-# ║  Professional | Animated | ATS-Friendly | Responsive                 ║
+# ║  ATS-Optimized | Professional | Animated | Responsive               ║
 # ╚══════════════════════════════════════════════════════════════════════╝
 
 # ── Site Mode ────────────────────────────────────────────────────────────
@@ -11,7 +11,7 @@ showPoweredBy: false
 # ── Identity ─────────────────────────────────────────────────────────────
 name: "Pavan Kumar Dubey"
 title: "Software Engineer"
-tagline: "Python • Django • Laravel • AI/ML • REST APIs"
+tagline: "Python • Django • Laravel • AI/ML • REST APIs • AWS"
 email: "pavan05992@gmail.com"
 phone: "+91-9454680972"
 location: "Noida, Uttar Pradesh, India"
@@ -25,9 +25,9 @@ resumeFileName: "Pavan_Kumar_Dubey_Resume.pdf"
 openToWork: true
 
 # ── Theme ───────────────────────────────────────────────────────────────
-defaultTheme: "system"      # light | dark | system
-colorPreset: "indigo"       # indigo | emerald | rose | amber | ocean | slate
-primaryColor: "#4F46E5"     # Slightly different indigo for a fresh look
+defaultTheme: "system"
+colorPreset: "indigo"
+primaryColor: "#4F46E5"
 
 resumeTheme:
   twoColumn: "indigo"
@@ -58,26 +58,28 @@ social:
 
 # ── About ──────────────────────────────────────────────────────────────
 about: |
-  Software Engineer with 5.5+ years of experience architecting and scaling 
-  high-performance backend systems. Specializes in building AI-powered solutions, 
-  NLP-based automation, and microservices architectures using Python, Django, 
+  Software Engineer with 5.5+ years of experience in backend development, 
+  API design, and cloud infrastructure. Proven track record of building 
+  scalable web applications and AI-powered solutions using Python, Django, 
   Laravel, and FastAPI.
 
-  Core expertise includes REST API development, SaaS platforms, data automation, 
-  cloud infrastructure (AWS), and database optimization. Proven ability to thrive 
-  in Agile environments and deliver elegant, maintainable code for complex 
-  business problems.
+  Core competencies include:
+  • REST API Development & Microservices Architecture
+  • AI/ML Integration (NLP, Transformers, Content Moderation)
+  • Database Design & Optimization (MySQL, PostgreSQL, MongoDB)
+  • Cloud Deployment on AWS (EC2, S3, RDS, Lambda)
+  • Data Automation & Web Scraping (Selenium, BeautifulSoup, Pandas)
 
-  Currently focused on transformer models, LLM fine-tuning, and real-time data 
-  pipelines to build intelligent automation systems that drive measurable 
-  business value.
+  Experienced in Agile/SCRUM methodologies, leading cross-functional teams, 
+  and delivering production-ready code. Passionate about building intelligent 
+  automation systems that solve real-world problems.
 
 # ── Stats ──────────────────────────────────────────────────────────────
 stats:
-  - { label: "Years of Experience", value: 5, suffix: "+" }
+  - { label: "Years Experience", value: 5, suffix: "+" }
   - { label: "Projects Delivered", value: 25, suffix: "+" }
-  - { label: "Technologies Mastered", value: 18, suffix: "+" }
-  - { label: "Happy Clients", value: 12, suffix: "+" }
+  - { label: "Technologies", value: 18, suffix: "+" }
+  - { label: "Clients Served", value: 12, suffix: "+" }
 
 # ── Languages ──────────────────────────────────────────────────────────
 languages:
@@ -86,122 +88,118 @@ languages:
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
-  - category: "💻 Programming Languages"
-    items: ["PHP", "Python", "JavaScript"]
+  - category: "Programming Languages"
+    items: ["Python", "PHP", "JavaScript"]
   
-  - category: "⚡ Frameworks"
-    items: ["Laravel", "Django", "Flask", "Django REST Framework", "FastAPI"]
+  - category: "Frameworks"
+    items: ["Django", "Laravel", "FastAPI", "Flask", "Django REST Framework"]
   
-  - category: "🗄️ Databases"
-    items: ["MySQL", "PostgreSQL", "MongoDB", "SQLite"]  # ✅ PostgreSQL added
+  - category: "Databases"
+    items: ["MySQL", "PostgreSQL", "MongoDB", "SQLite"]
   
-  - category: "🎨 Frontend"
-    items: ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", "Tailwind CSS"]
+  - category: "Frontend Technologies"
+    items: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "jQuery"]
   
-  - category: "🔌 APIs & Architecture"
-    items: ["REST APIs", "GraphQL", "Microservices", "Event-Driven Architecture"]
+  - category: "APIs & Architecture"
+    items: ["REST APIs", "Microservices", "GraphQL", "Event-Driven Architecture"]
   
-  - category: "🌐 Web Servers"
+  - category: "Web Servers"
     items: ["Apache", "Nginx", "Gunicorn"]
   
-  - category: "🤖 AI / ML Libraries"
-    items: ["Hugging Face Transformers", "Scikit-learn", "NumPy", "Pandas", "TensorFlow", "PyTorch"]
+  - category: "AI / ML"
+    items: ["Hugging Face Transformers", "DistilBERT", "Scikit-learn", "NumPy", "Pandas", "TensorFlow"]
   
-  - category: "☁️ Cloud & DevOps"
+  - category: "Cloud & DevOps"
     items: ["AWS (EC2, S3, RDS, Lambda)", "Docker", "CI/CD", "GitHub Actions"]
   
-  - category: "🛠️ Development Tools"
-    items: ["Git", "Postman", "JIRA", "VS Code", "PyCharm", "Docker Compose"]
+  - category: "Development Tools"
+    items: ["Git", "Postman", "JIRA", "VS Code", "Docker Compose"]
   
-  - category: "🐧 Operating Systems"
+  - category: "Operating Systems"
     items: ["Linux (Ubuntu)", "Windows", "macOS"]
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
   - company: "Freelance"
-    role: "Senior Software Engineer (Python)"
+    role: "Software Engineer (Python)"
     period: "Apr 2026 – Present"
     description: |
-      Building AI-powered automation tools and scalable backend solutions for 
-      diverse clients. Specializing in web scraping, data processing, and 
-      intelligent document automation.
+      Building automation tools and backend solutions for diverse clients.
     highlights:
-      - 🚀 Developed Python automation tools with Selenium, BeautifulSoup, Pandas
-      - 📊 Automated journal metadata extraction and Excel-based data processing
-      - 🖥️ Built Tkinter desktop apps packaged as Windows executables
-      - 🔄 Implemented CI/CD pipelines for automated deployments
+      - "Developed web scrapers with Selenium, BeautifulSoup, and Pandas"
+      - "Automated metadata extraction and Excel data processing"
+      - "Created desktop applications with Tkinter and PyInstaller"
+      - "Implemented CI/CD pipelines for automated deployments"
 
   - company: "Neighbrsnook Pvt. Ltd., Noida"
-    role: "Senior Software Engineer (PHP/Python)"
+    role: "Software Engineer (PHP/Python)"
     period: "Nov 2024 – Apr 2026"
     description: |
-      Led backend development for Neighbrsnook - a hyperlocal platform for 
-      verified neighbourhood communities with 50K+ active users.
+      Backend development for hyperlocal platform with 50K+ active users.
     highlights:
-      - 🏗️ Architected scalable REST APIs with Laravel serving 10K+ requests/min
-      - 🤖 Built AI moderation system using DistilBERT (95% accuracy)
-      - ⚡ Optimized database queries reducing response time by 60%
-      - 👥 Led 5-member team in Agile/SCRUM environment
-      - 🔐 Implemented advanced user verification and RBAC
+      - "Architected REST APIs with Laravel handling 10K+ requests/min"
+      - "Built AI moderation system using DistilBERT (95% accuracy)"
+      - "Optimized database queries reducing response time by 60%"
+      - "Led 5-member team in Agile/SCRUM environment"
+      - "Implemented user verification and RBAC systems"
 
   - company: "theCloudTree, Noida"
     role: "Software Engineer (PHP/Python)"
     period: "Dec 2022 – Oct 2024"
     description: |
-      Core contributor to Neighbrsnook platform development and infrastructure.
+      Core contributor to Neighbrsnook platform development.
     highlights:
-      - 📡 Designed microservices architecture with REST APIs
-      - 🧠 Implemented NLP-based content analysis with Hugging Face Transformers
-      - 📊 Built admin dashboards with real-time moderation tools
-      - 🔄 Integrated automated content filtering pipelines
+      - "Designed microservices architecture with REST APIs"
+      - "Implemented NLP content analysis with Hugging Face Transformers"
+      - "Built admin dashboards with real-time moderation tools"
+      - "Integrated automated content filtering pipelines"
 
   - company: "Freelance"
     role: "Software Engineer (PHP/Python)"
     period: "Feb 2022 – Dec 2022"
     description: |
-      Delivered secure enterprise-grade applications for fintech and SaaS clients.
+      Delivered enterprise applications for fintech and SaaS clients.
     highlights:
-      - 🏦 Built database-driven FinTech solutions with Django
-      - 🔒 Implemented OAuth2 authentication and JWT-based security
-      - 📈 Developed analytics dashboards with real-time data
+      - "Built database-driven FinTech solutions with Django"
+      - "Implemented OAuth2 authentication and JWT security"
+      - "Developed analytics dashboards with real-time data"
 
   - company: "Nippon Data Systems Limited, Noida"
     role: "Software Engineer (PHP/Python)"
     period: "Jul 2020 – Feb 2022"
     description: |
-      Key contributor to government and enterprise projects at NICSI.
+      Government and enterprise projects at NICSI.
     highlights:
-      - 🏢 Developed intranet Stock Management System with Python/Django
-      - 🇮🇳 Maintained NICSI (Government of India) applications
-      - 🔄 Migrated Drupal 7 to Drupal 8 with zero downtime
-      - 🛡️ Implemented comprehensive RBAC and audit logging
+      - "Developed Stock Management System with Python/Django"
+      - "Maintained NICSI (Government of India) applications"
+      - "Migrated Drupal 7 to Drupal 8 with zero downtime"
+      - "Implemented RBAC and audit logging systems"
 
   - company: "Investor Homez, Noida"
     role: "PHP Developer"
     period: "Feb 2020 – Jul 2020"
     description: |
-      Full-stack developer for real estate platform with custom CMS.
+      Full-stack development for real estate platform.
     highlights:
-      - 🏠 Developed WordPress/Laravel websites with custom features
-      - 🎨 Implemented responsive designs with HTML5, CSS3, JavaScript
-      - 📦 Built custom plugins for dynamic content management
+      - "Developed WordPress/Laravel websites with custom features"
+      - "Built responsive designs with HTML5, CSS3, JavaScript"
+      - "Created custom plugins for dynamic content management"
 
 # ── Projects ────────────────────────────────────────────────────────────
 projects:
   - name: "MLM Network Marketing System"
     description: |
-      🌟 **Professional MLM Platform** with Django 4.2 featuring **11 Wallet Types**, 
-      **9 Income Streams**, Interactive Genealogy Tree, Rank System (Silver, Gold, Diamond, Crown), 
-      OTP Security, and Modern UI with Animations. Production Ready.
-    tags: ["Django", "Python", "Chart.js", "Bootstrap", "SQLite", "Celery"]
+      Professional MLM platform with 11 wallet types, 9 income streams, 
+      genealogy tree, and rank system built with Django 4.2.
+    tags: ["Django", "Python", "PostgreSQL", "Celery", "Bootstrap"]
     liveUrl: "https://softbenderai.cloud"
     repoUrl: "https://github.com/pkdubey/mlm"
     featured: true
 
-  - name: "Content Moderation System"
+  - name: "AI Content Moderation System"
     description: |
-      🔍 AI-powered content moderation using **DistilBERT** and Hugging Face Transformers 
-      for automated toxicity detection, text classification, and content filtering.
+      NLP-powered content filtering using DistilBERT and Hugging Face 
+      Transformers for toxicity detection and text classification.
     tags: ["Python", "DistilBERT", "Hugging Face", "NLP", "FastAPI"]
     liveUrl: ""
     repoUrl: "https://github.com/pkdubey/content_moderation"
@@ -209,17 +207,17 @@ projects:
 
   - name: "Neighbrsnook Platform"
     description: |
-      🏘️ Hyperlocal platform for verified neighbourhood communities with AI-powered 
-      moderation, user verification, and real-time feeds.
-    tags: ["Laravel", "PHP", "Python", "Django", "MySQL", "REST APIs"]
+      Hyperlocal community platform with AI-powered moderation, 
+      user verification, and real-time feeds.
+    tags: ["Laravel", "PHP", "Python", "MySQL", "REST APIs"]
     liveUrl: "https://dlc.softbenderai.cloud/"
     repoUrl: "https://github.com/pkdubey/neighbrsnook"
     featured: true
 
   - name: "DocConnect"
     description: |
-      📄 Document management and connection platform for seamless file sharing, 
-      collaboration, and workflow automation.
+      Document management platform with file sharing, collaboration, 
+      and workflow automation features.
     tags: ["Python", "Django", "PostgreSQL", "Docker", "Bootstrap"]
     liveUrl: ""
     repoUrl: "https://github.com/pkdubey/docconnect"
@@ -227,8 +225,8 @@ projects:
 
   - name: "Affiliate Management System"
     description: |
-      💼 Comprehensive affiliate and referral management platform with tracking, 
-      commission distribution, and analytics dashboards.
+      Affiliate tracking and commission distribution platform 
+      with analytics dashboards.
     tags: ["PHP", "Laravel", "MySQL", "JavaScript", "Bootstrap"]
     liveUrl: ""
     repoUrl: "https://github.com/pkdubey/Affiliate_Management"
@@ -236,17 +234,17 @@ projects:
 
   - name: "Automated Scrapers Suite"
     description: |
-      🤖 Python automation framework for web scraping, metadata extraction, 
-      and data processing with Selenium, BeautifulSoup, and Pandas.
+      Python automation framework for web scraping, data extraction, 
+      and processing using Selenium and BeautifulSoup.
     tags: ["Python", "Selenium", "BeautifulSoup", "Pandas", "OpenPyXL"]
     liveUrl: ""
     repoUrl: "https://github.com/pkdubey/automated_scrapers"
     featured: false
 
-  - name: "TourHMS (Live Demo)"
+  - name: "TourHMS"
     description: |
-      🏨 Tourism and Hotel Management System with booking engine, inventory management, 
-      and customer relationship features.
+      Tourism and Hotel Management System with booking engine, 
+      inventory management, and CRM features.
     tags: ["Python", "Django", "PostgreSQL", "Bootstrap", "Chart.js"]
     liveUrl: "https://tourhms.softbenderai.cloud"
     repoUrl: ""
@@ -265,16 +263,16 @@ certifications:
   - title: "Machine Learning A-Z™: Python & R in Data Science"
     issuer: "Udemy"
     date: "2022"
-    credentialUrl: "https://www.udemy.com/certificate/ML-AZ-2022"
+    credentialUrl: ""
     badgeUrl: ""
-    tags: [Machine Learning, Python, R, Data Science]
+    tags: ["Machine Learning", "Python", "Data Science"]
 
   - title: "Python and Django Full Stack Web Developer Bootcamp"
     issuer: "Udemy"
     date: "2021"
-    credentialUrl: "https://www.udemy.com/certificate/Django-2021"
+    credentialUrl: ""
     badgeUrl: ""
-    tags: [Python, Django, Full Stack, Web Development]
+    tags: ["Python", "Django", "Full Stack"]
 
 # ── Publications ────────────────────────────────────────────────────────
 publications: []
