@@ -57,7 +57,7 @@ social:
   website:  "https://softbenderai.cloud"
 
 # ── About ──────────────────────────────────────────────────────────────
-about: >
+about: |
   Software Engineer with 5.5+ years of experience in backend development, 
   API design, and cloud infrastructure. Proven track record of building 
   scalable web applications and AI-powered solutions using Python, Django, 
