@@ -57,18 +57,14 @@ social:
   website:  "https://softbenderai.cloud"
 
 # ── About ──────────────────────────────────────────────────────────────
-about: |
+about: >
   Software Engineer with 5.5+ years of experience in backend development, 
   API design, and cloud infrastructure. Proven track record of building 
   scalable web applications and AI-powered solutions using Python, Django, 
-  Laravel, and FastAPI.
-
-  Core expertise includes REST API development, SaaS platforms, data automation, 
-  cloud infrastructure (AWS), and database optimization. Experienced in Agile 
-  environments and delivering maintainable code for complex business problems.
-
-  Currently focused on NLP, transformer models, and real-time data pipelines 
-  to build intelligent automation systems that drive business value.
+  Laravel, and FastAPI. Core expertise includes REST API development, 
+  SaaS platforms, data automation, AWS, and database optimization. 
+  Experienced in Agile environments and delivering maintainable code 
+  for complex business problems.
 
 # ── Stats ──────────────────────────────────────────────────────────────
 stats:
