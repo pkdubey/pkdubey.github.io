@@ -1,7 +1,7 @@
 {
   "name": "@workspace/portfolio",
   "version": "1.0.0",
-  "description": "GitVitae — spin up a beautiful, hosted portfolio in minutes by editing one config file.",
+  "description": "Pavan Kumar Dubey — spin up a beautiful, hosted portfolio in minutes by editing one config file.",
   "private": true,
   "type": "module",
   "scripts": {
