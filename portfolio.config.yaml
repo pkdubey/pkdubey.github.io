@@ -242,6 +242,17 @@ projects:
     repoUrl: "https://github.com/pkdubey/tourhms"
     featured: false
 
+  - name: "Python Backend Interview Prep"
+    description: |
+      Comprehensive interview preparation guide for Python Backend Developer 
+      roles (5.5+ years experience). Covers Python Core, OOPs, Django, DRF, 
+      MySQL, LLM, Hugging Face, Celery, Redis, AWS, System Design, DSA, and 
+      150+ real interview questions with answers.
+    tags: ["Python", "Django", "Interview Prep", "Documentation", "Jekyll"]
+    liveUrl: "https://pkdubey.github.io/python-backend-interview-prep"
+    repoUrl: "https://github.com/pkdubey/python-backend-interview-prep"
+    featured: true
+
 # ── Education ──────────────────────────────────────────────────────────
 education:
   - institution: "Sikkim Manipal University, Gangtok"
