@@ -210,6 +210,15 @@ projects:
     repoUrl: "https://github.com/pkdubey/docconnect"
     featured: true
 
+  - name: "AI Content Moderation System"
+    description: |
+      NLP-powered content filtering using DistilBERT and Hugging Face 
+      Transformers for toxicity detection and text classification.
+    tags: ["Python", "DistilBERT", "Hugging Face", "NLP", "FastAPI"]
+    liveUrl: ""
+    repoUrl: "https://github.com/pkdubey/content_moderation"
+    featured: true
+
   - name: "Python Backend Interview Prep"
     description: |
       Comprehensive interview preparation guide for Python Backend Developer 
@@ -229,15 +238,6 @@ projects:
     tags: ["Python", "Django", "PostgreSQL", "Celery", "Bootstrap"]
     liveUrl: ""
     repoUrl: "https://github.com/pkdubey/mlm"
-    featured: false
-
-  - name: "AI Content Moderation System"
-    description: |
-      NLP-powered content filtering using DistilBERT and Hugging Face 
-      Transformers for toxicity detection and text classification.
-    tags: ["Python", "DistilBERT", "Hugging Face", "NLP", "FastAPI"]
-    liveUrl: ""
-    repoUrl: "https://github.com/pkdubey/content_moderation"
     featured: false
 
   - name: "Neighbrsnook Platform"
