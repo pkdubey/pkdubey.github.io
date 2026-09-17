@@ -229,7 +229,7 @@ projects:
     tags: ["Python", "Django", "Interview Prep", "Documentation", "Jekyll"]
     liveUrl: "https://pkdubey.github.io/python-backend-interview-prep"
     repoUrl: "https://github.com/pkdubey/python-backend-interview-prep"
-    featured: true
+    featured: false
 
   - name: "MLM Network Marketing System"
     description: |
@@ -247,7 +247,7 @@ projects:
     tags: ["Laravel", "PHP", "Python", "MySQL", "REST APIs"]
     liveUrl: "https://www.neighbrsnook.com/"
     repoUrl: "https://github.com/pkdubey/neighbrsnook"
-    featured: false
+    featured: true
 
   - name: "Affiliate Management System"
     description: |
