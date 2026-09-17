@@ -11,7 +11,7 @@ showPoweredBy: false
 # ── Identity ─────────────────────────────────────────────────────────────
 name: "Pavan Kumar Dubey"
 title: "Software Engineer"
-tagline: "Python • Django • Laravel • AI/ML • REST APIs • AWS"
+tagline: "Python • Django • FastAPI • AI/ML • Multi-Agent Systems • AWS • GCP"
 email: "pavan05992@gmail.com"
 phone: "+91-9454680972"
 location: "Noida, Uttar Pradesh, India"
@@ -61,17 +61,19 @@ about: |
   Software Engineer with 5.5+ years of experience in backend development, 
   API design, and cloud infrastructure. Proven track record of building 
   scalable web applications and AI-powered solutions using Python, Django, 
-  Laravel, and FastAPI. Core expertise includes REST API development, 
-  SaaS platforms, data automation, AWS, and database optimization. 
-  Experienced in Agile environments and delivering maintainable code 
-  for complex business problems.
+  FastAPI, and Laravel. Core expertise includes REST API development, 
+  multi-agent systems, SaaS platforms, data automation, AWS, GCP, and 
+  database optimization. Experienced in Agile environments and delivering 
+  maintainable code for complex business problems. Recently built AgriSensei 
+  — an autonomous multi-agent farming advisory system using Gemini 3.6 Flash 
+  and Google Cloud, submitted to Google's "The Taskmaster" Hackathon 2026.
 
 # ── Stats ──────────────────────────────────────────────────────────────
 stats:
   - { label: "Years Experience", value: 5, suffix: "+" }
-  - { label: "Projects Delivered", value: 25, suffix: "+" }
-  - { label: "Technologies", value: 18, suffix: "+" }
-  - { label: "Clients Served", value: 12, suffix: "+" }
+  - { label: "Projects Delivered", value: 30, suffix: "+" }
+  - { label: "Technologies", value: 25, suffix: "+" }
+  - { label: "Hackathons", value: 1, suffix: "" }
 
 # ── Languages ──────────────────────────────────────────────────────────
 languages:
@@ -81,28 +83,31 @@ languages:
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
   - category: "Programming Languages"
-    items: ["Python", "PHP", "JavaScript"]
+    items: ["Python", "PHP", "JavaScript", "SQL"]
   
   - category: "Frameworks"
-    items: ["Django", "Laravel", "FastAPI", "Flask", "Django REST Framework"]
+    items: ["Django", "Django REST Framework", "FastAPI", "Flask", "Laravel"]
   
   - category: "Databases"
-    items: ["MySQL", "PostgreSQL", "MongoDB", "SQLite"]
+    items: ["PostgreSQL", "MySQL", "MongoDB", "SQLite", "Firestore", "Redis"]
   
   - category: "Frontend Technologies"
     items: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "jQuery"]
   
   - category: "APIs & Architecture"
-    items: ["REST APIs", "Microservices", "GraphQL", "Event-Driven Architecture"]
+    items: ["REST APIs", "Microservices", "GraphQL", "Event-Driven Architecture", "Server-Sent Events (SSE)"]
   
   - category: "Web Servers"
-    items: ["Apache", "Nginx", "Gunicorn"]
+    items: ["Nginx", "Gunicorn", "Apache"]
   
   - category: "AI / ML"
-    items: ["Hugging Face Transformers", "DistilBERT", "Scikit-learn", "NumPy", "Pandas", "TensorFlow"]
+    items: ["Hugging Face Transformers", "DistilBERT", "Gemini 3.6 Flash", "Multi-Agent Systems", "Function Calling", "Scikit-learn", "NumPy", "Pandas", "TensorFlow"]
   
   - category: "Cloud & DevOps"
-    items: ["AWS (EC2, S3, RDS, Lambda)", "Docker", "CI/CD", "GitHub Actions"]
+    items: ["AWS (EC2, S3, RDS, Lambda)", "Google Cloud (Cloud Run, Firestore, Pub/Sub, Cloud Scheduler)", "Docker", "CI/CD", "GitHub Actions", "Cloud Build"]
+  
+  - category: "Background Processing"
+    items: ["Celery", "Redis", "Cloud Pub/Sub", "Cloud Scheduler"]
   
   - category: "Development Tools"
     items: ["Git", "Postman", "JIRA", "VS Code", "Docker Compose"]
@@ -116,8 +121,9 @@ experience:
     role: "Software Engineer (Python)"
     period: "Apr 2026 – Present"
     description: |
-      Building automation tools and backend solutions for diverse clients.
+      Building automation tools, backend solutions, and AI-powered applications for diverse clients.
     highlights:
+      - "Built AgriSensei — autonomous multi-agent farming advisory (Gemini 3.6 Flash + Google Cloud)"
       - "Developed web scrapers with Selenium, BeautifulSoup, and Pandas"
       - "Automated metadata extraction and Excel data processing"
       - "Created desktop applications with Tkinter and PyInstaller"
@@ -179,6 +185,43 @@ experience:
 
 # ── Projects ────────────────────────────────────────────────────────────
 projects:
+  - name: "AgriSensei"
+    description: |
+      Autonomous multi-agent farming advisory system delivering daily weather 
+      and crop disease alerts in Hindi, Telugu, and Tamil via SMS/WhatsApp. 
+      Built with Gemini 3.6 Flash, FastAPI on Cloud Run, Firestore, Pub/Sub, 
+      and Twilio. Submitted to Google's "The Taskmaster — All Things Agentic" 
+      Hackathon (Aug 2026). Designed to serve 800M+ smallholder farmers with 
+      no internet requirement — just a basic phone.
+    tags: ["Gemini 3.6 Flash", "Multi-Agent", "FastAPI", "Cloud Run", "Firestore", "Pub/Sub", "Twilio", "Google Cloud"]
+    liveUrl: "https://youtu.be/x7H0kQqdujA"
+    repoUrl: "https://github.com/pkdubey/agrisensei"
+    featured: true
+
+  - name: "DocConnect"
+    description: |
+      Verified professional network exclusively for doctors — LinkedIn-style 
+      platform with NMC-verified identities, doctor-only jobs, clinical 
+      networking, locum marketplace, and AI-powered content moderation. 
+      Built with Django 5.0 + FastAPI hybrid architecture, PostgreSQL 16, 
+      Redis, Celery, and AWS S3.
+    tags: ["Python", "Django", "FastAPI", "PostgreSQL", "Redis", "Celery", "AWS", "Docker"]
+    liveUrl: ""
+    repoUrl: "https://github.com/pkdubey/docconnect"
+    featured: true
+
+  - name: "Python Backend Interview Prep"
+    description: |
+      Comprehensive interview preparation guide for Python Backend Developer 
+      roles (5.5+ years experience). Covers Python Core, OOPs, Django, DRF, 
+      MySQL, LLM, Hugging Face, Celery, Redis, AWS, System Design, DSA, and 
+      150+ real interview questions with answers. Built with Jekyll and 
+      hosted on GitHub Pages.
+    tags: ["Python", "Django", "Interview Prep", "Documentation", "Jekyll"]
+    liveUrl: "https://pkdubey.github.io/python-backend-interview-prep"
+    repoUrl: "https://github.com/pkdubey/python-backend-interview-prep"
+    featured: true
+
   - name: "MLM Network Marketing System"
     description: |
       Professional MLM platform with 11 wallet types, 9 income streams, 
@@ -186,7 +229,7 @@ projects:
     tags: ["Python", "Django", "PostgreSQL", "Celery", "Bootstrap"]
     liveUrl: ""
     repoUrl: "https://github.com/pkdubey/mlm"
-    featured: true
+    featured: false
 
   - name: "AI Content Moderation System"
     description: |
@@ -195,7 +238,7 @@ projects:
     tags: ["Python", "DistilBERT", "Hugging Face", "NLP", "FastAPI"]
     liveUrl: ""
     repoUrl: "https://github.com/pkdubey/content_moderation"
-    featured: true
+    featured: false
 
   - name: "Neighbrsnook Platform"
     description: |
@@ -204,15 +247,6 @@ projects:
     tags: ["Laravel", "PHP", "Python", "MySQL", "REST APIs"]
     liveUrl: "https://www.neighbrsnook.com/"
     repoUrl: "https://github.com/pkdubey/neighbrsnook"
-    featured: true
-
-  - name: "DocConnect"
-    description: |
-      Document management platform with file sharing, collaboration, 
-      and workflow automation features.
-    tags: ["Python", "Django", "PostgreSQL", "Docker", "Bootstrap"]
-    liveUrl: ""
-    repoUrl: "https://github.com/pkdubey/docconnect"
     featured: false
 
   - name: "Affiliate Management System"
@@ -241,17 +275,6 @@ projects:
     liveUrl: "https://tourhms.softbenderai.cloud"
     repoUrl: "https://github.com/pkdubey/tourhms"
     featured: false
-
-  - name: "Python Backend Interview Prep"
-    description: |
-      Comprehensive interview preparation guide for Python Backend Developer 
-      roles (5.5+ years experience). Covers Python Core, OOPs, Django, DRF, 
-      MySQL, LLM, Hugging Face, Celery, Redis, AWS, System Design, DSA, and 
-      150+ real interview questions with answers.
-    tags: ["Python", "Django", "Interview Prep", "Documentation", "Jekyll"]
-    liveUrl: "https://pkdubey.github.io/python-backend-interview-prep"
-    repoUrl: "https://github.com/pkdubey/python-backend-interview-prep"
-    featured: true
 
 # ── Education ──────────────────────────────────────────────────────────
 education:
